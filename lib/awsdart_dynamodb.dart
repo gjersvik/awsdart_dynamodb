@@ -6,6 +6,9 @@
 /// This is an awesome library. More dartdocs go here.
 library awsdart_dynamodb;
 
-// TODO: Export any libraries intended for clients of this package.
+import 'dart:async';
 
-export 'src/awsdart_dynamodb_base.dart';
+import 'package:awsdart/core.dart';
+
+part 'src/dynamodb.dart';
+part 'src/table.dart';
