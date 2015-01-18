@@ -1,0 +1,5 @@
+name: awsdart_dynamodb
+version: 0.0.1
+description: A library useful for applications or for sharing on pub.dartlang.org.
+dev_dependencies:
+  unittest: any
