@@ -2,11 +2,11 @@ part of awsdart_dynamodb;
 
 class Table {
   
-  Future<Map> get(key, [range]){
+  Future<Map<String, dynamic>> get(key, [range]){
     return new Future.value({});
   }
   
-  Future set(Map data){
+  Future set(Map jsonData){
     return new Future.value(null);
   }
   
